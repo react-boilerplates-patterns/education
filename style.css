@@ -140,15 +140,41 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+.btn-set { top: 435px;}
 
 .dice {
     position: absolute;
     left: 50%;
-    top: 178px;
+    top: 173px;
     transform: translateX(-50%);
-    height: 100px;
+    height: 100px;center
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+
+.dice_2 {
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    transform: translateX(-50%);
+    height: 100px;center
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+    
 }
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+.wrapper input[type="text"] {
+    font-family: Lato;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgba(235,77,77,.1);
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 125px;
+    margin-bottom: 15px;
+    width: 50px;
+}
+
+
